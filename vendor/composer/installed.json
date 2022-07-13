@@ -1,0 +1,49 @@
+{
+    "packages": [
+        {
+            "name": "denisns/commands",
+            "version": "v1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DenisNS/commands.git",
+                "reference": "0e7ef428cfee539ba5c876ab054aa378f576e9b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DenisNS/commands/zipball/0e7ef428cfee539ba5c876ab054aa378f576e9b9",
+                "reference": "0e7ef428cfee539ba5c876ab054aa378f576e9b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2022-07-13T07:48:48+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "DenisNS\\Commands\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "DenisNS",
+                    "email": "denis33-2010@mail.ru"
+                }
+            ],
+            "description": "Package for creating and using custom commands",
+            "support": {
+                "issues": "https://github.com/DenisNS/commands/issues",
+                "source": "https://github.com/DenisNS/commands/tree/v1.0.1"
+            },
+            "install-path": "../denisns/commands"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
